@@ -6,6 +6,6 @@ data = {
 }
 df = pd.DataFrame(data)
 
-df.to_excel('fruits.xlsx', sheet_name='Улюблені фрукти', index=False)
+df.to_excel('resources/excel_files/fruits.xlsx', sheet_name='Улюблені фрукти', index=False)
 
 print("Дані успішно записано у файл 'fruits.xlsx'")

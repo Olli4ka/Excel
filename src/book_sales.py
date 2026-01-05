@@ -12,7 +12,9 @@ february_data = {
 }
 february_df = pd.DataFrame(february_data)
 
-with pd.ExcelWriter('book_sales.xlsx') as writer:
+EXCEL_PATH = 'resources/excel_files/book_sales.xlsx'
+
+with pd.ExcelWriter(EXCEL_PATH) as writer:
     january_df.to_excel(writer, sheet_name='Січень', index=False)
     february_df.to_excel(writer, sheet_name='Лютий', index=False)
 
