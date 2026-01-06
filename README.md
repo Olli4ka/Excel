@@ -8,3 +8,5 @@ Working with Excel for processing and preparing data
 ### 2 Writing the Main DataFrame to Excel
 
 ### 3 Automate data recording and report creation
+
+### 4 Data filtering
