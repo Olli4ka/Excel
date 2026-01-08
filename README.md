@@ -10,3 +10,5 @@ Working with Excel for processing and preparing data
 ### 3 Automate data recording and report creation
 
 ### 4 Data filtering
+
+### 5 Sorting data by multiple criteria
