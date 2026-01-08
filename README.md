@@ -14,3 +14,5 @@ Working with Excel for processing and preparing data
 ### 5 Sorting data by multiple criteria
 
 ### 6 Using multiple aggregate functions
+
+### 7 Grouping with multiple keys
