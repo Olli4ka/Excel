@@ -16,3 +16,5 @@ Working with Excel for processing and preparing data
 ### 6 Using multiple aggregate functions
 
 ### 7 Grouping with multiple keys
+
+### 8 Sales data analysis with subsequent visualization
