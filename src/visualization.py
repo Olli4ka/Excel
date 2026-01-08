@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -25,5 +26,12 @@ plt.ylabel('Продажі')
 plt.xticks(rotation=0)
 plt.legend(title='Товар')
 plt.tight_layout()
+
+image_dir = 'resources/images'
+os.makedirs(image_dir, exist_ok=True)
+
+image_path = os.path.join(image_dir, 'sales_by_region.png')
+
+plt.savefig(image_path)
 
 plt.show()
